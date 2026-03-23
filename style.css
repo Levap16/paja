@@ -1,0 +1,89 @@
+/* Minimal modern styles */
+:root {
+  --bg: #0f0f12;
+  --card: #111216;
+  --accent: #dba94a;
+  --muted: #bdbdbd;
+  --glass: rgba(255, 255, 255, 0.03);
+  --container: 1100px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Montserrat, system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, sans-serif;
+  margin: 0;
+  color: #eee;
+  background: linear-gradient(180deg, #0b0b0d 0%, #0f0f12 100%);
+}
+
+.container {
+  max-width: var(--container);
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+
+.brand {
+  font-weight: 700;
+  letter-spacing: 0.6px;
+  text-decoration: none; /* Přidáno pro případ, že je brand odkaz */
+  color: inherit; /* Zajistí, že barva textu je děděná */
+}
+
+.brand span
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
