@@ -15,10 +15,44 @@
 }
 
 body {
-  font-family: Montserrat, system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: 'Montserrat', system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, sans-serif;
   margin: 0;
   color: #eee;
   background: linear-gradient(180deg, #0b0b0d 0%, #0f0f12 100%);
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4 {
+    margin-top: 0;
+    line-height: 1.2;
+    color: #fff;
+}
+
+h2 {
+    font-size: 2.2rem;
+    text-align: center;
+    margin-bottom: 2.5rem;
+    position: relative;
+}
+
+h2::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: var(--accent);
+    margin: 1rem auto 0;
+    border-radius: 2px;
+}
+
+a {
+    color: var(--accent);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #fff;
 }
 
 .container {
@@ -27,63 +61,8 @@ body {
   padding: 2rem;
 }
 
+/* Navigation */
 .nav {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding: 1rem 0;
-}
-
-.brand {
-  font-weight: 700;
-  letter-spacing: 0.6px;
-  text-decoration: none; /* Přidáno pro případ, že je brand odkaz */
-  color: inherit; /* Zajistí, že barva textu je děděná */
-}
-
-.brand span
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  justify-
